@@ -1,0 +1,275 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*HEADER-TOP*/
+
+.header-top{
+	width: 100%;
+	background: #4760bb;
+	font-size: 0.8rem;
+}
+.header-top-left a{
+	color: #fff;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 8px 0px;
+}
+.header-top.container{
+	display: flex;
+}
+.header-top-right a i{
+	color: #a3afdd;
+}
+.header-top-right a span{
+	color: #fff;
+	margin-left: 5px;
+}
+.header-top-right a{
+	display: inline-block;
+	padding: 8px 16px;
+	float: right;
+}
+.header-top-right a:hover{
+	background: #3ea8f4;
+	transition: 0.8s;
+	text-decoration: none;
+}
+.header-top-left a.icon-link:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
+/*HEADER-BOTTOM*/
+
+ul.nav-right li.nav-right-item{
+	display: inline-block;
+	list-style: none;
+	margin-right: 2.2rem;
+}
+ul.nav-right{
+	margin: 35px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+ul.nav-right li.nav-right-item a.nav-right-link{
+	color: #333;
+	text-transform: uppercase;
+}
+ul.nav-right li.nav-right-item a.nav-right-link:hover{
+	text-decoration: none;
+	color: #3ea8f4;
+	transition: 0.3s;
+}
+
+ul.nav-child li.item-child{
+	list-style: none;
+	line-height: 2rem;
+	border-bottom: 1px solid #ddd;
+}
+ul.nav-child li.item-child a.link-child{
+	color: inherit;
+	text-transform: uppercase;
+}
+ul.nav-child li.item-child a.link-child:hover{
+	text-decoration: inherit;
+	color: #3ea8f4;
+
+}
+ul.nav-right li.nav-right-item:last-child{
+	position: relative;
+	display: inline-block;
+}
+ul.nav-child{
+	position: absolute;
+	display: none;
+	z-index: 1;
+	background-color: #fff;
+	min-width: 200px;
+}
+ul.nav-right li.nav-right-item:last-child:hover ul.nav-child{
+  display: block;
+}
+
+
+.header-bottom-left a.logo-link img{
+	max-width: 170px;
+	max-height: 98px;
+}
+
+/*MAIN*/
+.item-text{
+	padding: 0% 5%;
+}
+.item-text span{
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+.item-text p{
+	font-weight: 300;
+	margin-top: 1em;
+}
+.content-flex{
+	display: flex;
+	justify-content: space-between;
+	margin: 3em 0em;
+}
+.item{
+	display: flex;
+	justify-content: space-between;
+}
+.item:first-child{
+	margin-bottom: 2em;
+}
+.end-content-left img{
+	width: 100%;
+}
+.end-content-right-text h1{
+	font-weight: 300;
+}
+.end-content-right-text{
+	display: block;
+	margin: 6em 0em;
+}
+.end-content-right-text p{
+	font-weight: 300;
+}
+a.btn{
+	border: 1px solid #ddd;
+}
+a.btn span{
+	color: #3ea8f4;
+}
+
+
+
+.carousel-item img{
+	width: 100%;
+}
+.partner-img img{
+	width: 100%;
+}
+.content-header{
+	text-align: center;
+	margin: 0 10%;
+}
+
+.content-header h1{
+	font-weight: 300;
+}
+.content-header p{
+	font-weight: 300;
+}
+.footer-content{
+	background: #f0f1f3;
+	padding: 5em 0;
+}
+
+
+.layout img{
+	width: 100%;
+}
+a.layout-link{
+	color: #333;
+}
+a.layout-link:hover{
+	text-decoration: none;
+	
+}
+a.layout-link:hover .layout{
+	opacity: 0.8;
+	transition: 0.3s;
+}
+.content-layout{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5em;
+}
+.layout-text{
+	background: #fff;
+	padding: 20px;
+}
+.layout-text span{
+	font-weight: 300;
+}
+.layout:first-child{
+	margin-bottom: 1em;
+}
+.footer-top{
+	background: #3a3a3a;
+	padding: 4em 0em;
+}
+.footer-right-text p{
+	color: #fff;
+	font-weight: 300;
+}
+.footer-right-text{
+	border-bottom: 0.1em solid #444444;
+}
+.footer-right{
+	color: #fff;
+}
+.contact-box{
+	display: flex;
+}
+.icon-contact{
+	font-size: 2rem;
+}
+.contact-footer{
+	margin-left: 1em;
+	margin-top: 0.5em;
+	font-weight: 300;
+}
+.contact-footer span{
+	font-size: 1.5rem;
+}
+.contact-footer p{
+	font-size: 0.8rem;
+}
+.icon-contact{
+	opacity: 0.5;
+}
+.footer-right-child-left,.footer-right-child-right{
+	margin-top: 1em;
+}
+.footer-left a.logo-link img{
+	width: 90%;
+}
+
+
+.footer-nav{
+	background: #2d2d2d;
+	padding: 1em 0em;
+}
+.footer-nav-left{
+	text-transform: uppercase;
+}
+.footer-nav-left span{
+	color: #6b6b65;
+}
+
+ul.nav-footer li.item-footer a.link-footer{
+	color: #fff;
+	opacity: 0.5;
+	margin-left: 1em;
+}
+ul.nav-footer li.item-footer a.link-footer:hover{
+	opacity: 1;
+	text-decoration: none;
+	transition: 0.3s;
+}
+ul.nav-footer li.item-footer{
+	list-style: none;
+	display: inline-block;
+}
+ul.nav-footer{
+	margin: 0;
+	float: right;
+}
